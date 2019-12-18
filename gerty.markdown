@@ -5,6 +5,7 @@ permalink: "/gerty"
 samples:
 - blurb: Foo Bar
   entry: abcdefghijklmnopqrstuvwxyz1234567890
+  weight: 
 layout: font
 ---
 
