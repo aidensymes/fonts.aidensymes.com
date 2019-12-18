@@ -4,6 +4,7 @@ date: 2019-12-18 18:36:00 Z
 permalink: "/gerty"
 fontname: gerty
 sample: Alien Ships
+image: "/uploads/gerty_header.svg"
 samples:
 - blurb: Gerty 3000 is an italic, monospaced display font. Perfect for evil robots
     and alien death squads.
