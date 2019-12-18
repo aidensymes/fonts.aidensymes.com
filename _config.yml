@@ -2,6 +2,9 @@
 title: Fonts.Aidensymes.Com
 timezone: UTC
 collections:
+  fonts:
+    title: Posts
+    output: true
   posts:
     title: Posts
     output: true
