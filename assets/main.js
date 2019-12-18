@@ -1,3 +1,7 @@
+$(window).on('load', function() {
+  $('.overlay').css('width', '0');
+});
+
 $(document).ready(function() {
   $('a').click(function(e) {
     if ($(this).attr('target') != "_blank") {

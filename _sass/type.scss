@@ -4,11 +4,11 @@
 /////////////////////////////////////////////////////
 @font-face {
   font-family: 'Gerty';
-  src: url('/assets/gerty3000/Gerty3000.eot');
-  src: url('/assets/gerty3000/Gerty3000.eot?#iefix') format('embedded-opentype'),
-       url('/assets/gerty3000/Gerty3000.ttf') format('truetype'),
-       url('/assets/gerty3000/Gerty3000.woff') format('woff'),
-       url('/assets/gerty3000/Gerty3000.woff2') format('woff2');
+  src: url('/assets/fonts/gerty3000/Gerty3000.eot');
+  src: url('/assets/fonts/gerty3000/Gerty3000.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/gerty3000/Gerty3000.ttf') format('truetype'),
+       url('/assets/fonts/gerty3000/Gerty3000.woff') format('woff'),
+       url('/assets/fonts/gerty3000/Gerty3000.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,10 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 h1, h2, h4 {

@@ -2,6 +2,35 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <div class="overlay"></div>
+
+    {% include header.html %}
+
+    <section class="wrapper">
+      {% for font in site.fonts %}
+        <div class="font__blurb col-4">
+          <p>
+            <a class="bold" href="{{font.url}}">
+              {{ font.title }}
+            </a>
+          </p>
+          <p>
+            {{ font.content }}
+          </p>
+        </div>
+        <div class="font__info col-4-right">
+          <p>
+            <a href="{{font.url}}">
+              Info >
+            </a>
+          </p>
+        </div>
+        <div class="font__entry {{ font.fontname }} col-12" contenteditable>
+          {{ font.sample }}
+        </div>
+      {% endfor %}
+    </section>
+
+    {% include footer.html %}
+
   </body>
 </html>

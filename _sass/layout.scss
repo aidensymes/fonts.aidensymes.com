@@ -1,3 +1,5 @@
+@import "variables";
+
 // Wrapper
 /////////////////////////////////////////////////////
 .wrapper {
@@ -9,28 +11,53 @@
   position: relative;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: $gutter;
-  grid-row-gap : $gutter;
+  grid-row-gap : $gutter-half;
   @include break-at('small') {
     grid-column-gap: $gutter-half;
   }
 }
 
-section {
-  margin-bottom: $gutter-8;
-  @include break-at('small') {
-    margin-bottom: $gutter-6;
-  }
+// Overlay
+/////////////////////////////////////////////////////
+.overlay {
+  background-color: $highlight;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  @include transition(all, .15s)
 }
 
 // Grid
 /////////////////////////////////////////////////////
 .col-4 {
   grid-column: span 4;
+  @include break-at('medium') {
+    grid-column: span 6;
+  }
+  @include break-at('small') {
+    grid-column: span 12;
+  }
   &-right {
     grid-column: 9 / span 4;
+    @include break-at('medium') {
+      grid-column: span 6;
+    }
+    @include break-at('small') {
+      grid-column: span 12;
+    }
   }
   &-center {
     grid-column: 5 / span 4;
+    @include break-at('medium') {
+      grid-column: span 6;
+    }
+    @include break-at('small') {
+      grid-column: span 12;
+    }
   }
 }
 
@@ -56,4 +83,72 @@ section {
 
 .col-12 {
   grid-column: span 12;
+}
+
+// Header
+/////////////////////////////////////////////////////
+header {
+  margin: $gutter 0 $gutter 0;
+}
+
+// Font Pages
+/////////////////////////////////////////////////////
+.masthead {
+  margin-bottom: $gutter-4;
+}
+
+.font__entry {
+  font-size: 5vw;
+  padding-top: $gutter-half;
+  border-top: 1px solid $primary;
+  margin-bottom: $gutter-4;
+  white-space: nowrap;
+  overflow-x: hidden;
+  padding-bottom: $gutter;
+  &:focus {
+    // background-color: $highlight;
+    outline-color: transparent;
+    outline-style: none;
+  }
+}
+
+.font__buy {
+  padding-top: $gutter-half;
+  border-top: 2px solid $primary;
+  margin-bottom: $gutter;
+}
+
+.font__info {
+  position: relative;
+  p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  @include break-at('small') {
+    padding-top: 10px;
+    p {
+      left: 0;
+    }
+  }
+}
+
+// Footer
+/////////////////////////////////////////////////////
+footer {
+  padding-top: $gutter-half;
+  border-top: 4px solid $primary;
+  margin: $gutter-4 0 $gutter-2 0;
+}
+
+.logo {
+  h2 {
+    line-height: .85;
+  }
+  @include break-at('medium') {
+    margin-top: 0;
+  }
+  @include break-at('small') {
+    margin-right: 0;
+  }
 }
