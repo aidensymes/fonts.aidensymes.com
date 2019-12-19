@@ -22,7 +22,7 @@ samples:
 buy:
   Gerty 3000: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/mSit" target="_blank">$5 | Buy Now</a>
+    <a class="gumroad-button" href="https://gum.co/mSit" target="_blank">$5.00 | Gerty 3000</a>
 layout: font
 ---
 
