@@ -20,7 +20,7 @@ samples:
   entry: type here!
   weight: 
 buy:
-  Download one font in .OTF format.: |-
+  Gerty 3000: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
     <a class="gumroad-button" href="https://gum.co/mSit" target="_blank">$5.00 | Buy Now</a>
 layout: font
