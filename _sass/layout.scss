@@ -20,7 +20,7 @@
 // Overlay
 /////////////////////////////////////////////////////
 .overlay {
-  background-color: $highlight;
+  background-color: $primary;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -112,12 +112,6 @@ header {
   }
 }
 
-.font__buy {
-  padding-top: $gutter-half;
-  border-top: 2px solid $primary;
-  margin-bottom: $gutter;
-}
-
 .font__info {
   position: relative;
   p {
@@ -129,6 +123,40 @@ header {
     padding-top: 10px;
     p {
       left: 0;
+    }
+  }
+}
+
+// Buying
+/////////////////////////////////////////////////////
+.font__buy {
+  margin-bottom: $gutter;
+}
+
+.font__buy__info {
+  border-top: 2px solid $primary;
+  padding-top: $gutter-half;
+}
+
+.font__buy__button {
+  position: relative;
+  .gumroad-button {
+    width: 100%;
+    padding: 0 $gutter-half !important;
+    color: $primary !important;
+    background-color: $secondary !important;
+    border: 2px solid $primary;
+    background-image: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 45px !important;
+    .gumroad-button-logo {
+      display: none !important;
+    }
+    &:hover {
+      color: $secondary !important;
+      background-color: $primary !important;
     }
   }
 }
