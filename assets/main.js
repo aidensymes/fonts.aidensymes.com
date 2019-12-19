@@ -38,14 +38,14 @@ $(document).ready(function() {
 function changecolor(color) {
   $('html, body').css('background-color', color);
   if (color == "yellow" || color == "white") {
-    $('*').css('color', 'black');
+    $('h1, h2, p, .font__entry').css('color', 'black');
     $('.svg').css('fill', 'black');
-    $('*').css('border-color', 'black');
+    $('.font__entry, .font__buy__info, footer, .header__color__picker').css('border-color', 'black');
     $('.gumroad-button').css('cssText', 'background-color:' + color + '!important; color: black !important; border-color: black;');
   } else {
-    $('*').css('color', 'white');
+    $('h1, h2, p, .font__entry').css('color', 'white');
     $('.svg').css('fill', 'white');
-    $('*').css('border-color', 'white');
+    $('.font__entry, .font__buy__info, footer, .header__color__picker').css('border-color', 'white');
     $('.gumroad-button').css('cssText', 'background-color:' + color + '!important; color: white !important; border-color: white;');
   }
 }

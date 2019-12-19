@@ -173,15 +173,3 @@ footer {
   border-top: 4px solid $primary;
   margin: $gutter-4 0 $gutter-2 0;
 }
-
-.logo {
-  h2 {
-    line-height: .85;
-  }
-  @include break-at('medium') {
-    margin-top: 0;
-  }
-  @include break-at('small') {
-    margin-right: 0;
-  }
-}
