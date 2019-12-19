@@ -6,7 +6,7 @@
     {% include header.html %}
 
     <section class="wrapper masthead">
-      <img class="col-12" src="{{ page.image }}"></img>
+      <img class="svg col-12" src="{{ page.image }}"></img>
     </section>
 
     <section class="wrapper">
@@ -16,8 +16,10 @@
             {{ sample.blurb }}
           </p>
         </div>
-        {% if sample.weight %}
-          <div class="font__entry {{ page.fontname }} col-12" style="font-weight:{{ sample.weight }}" contenteditable>
+        {% if forloop.first %}
+          <div class="font__entry {{ page.fontname }} col-12" style="white-space: normal;" contenteditable>
+        {% elsif sample.weight %}
+          <div class="font__entry {{ page.fontname }} col-12" style="font-weight: {{ sample.weight }};" contenteditable>
         {% else %}
           <div class="font__entry {{ page.fontname }} col-12" contenteditable>
         {% endif %}
@@ -29,7 +31,12 @@
     {% for option in page.buy %}
       <section class="wrapper font__buy">
           <div class="font__buy__info col-4">
-            Buy <span class="bold">{{ option[0] }}</span>
+            <span class="bold">
+              {{ option[0] }}
+            </span>
+            <p>
+              Download {{ option[0] }} in .OTF format.
+            </p>
           </div>
           <div class="col-8 font__buy__button">
             {{ option[1] }}
