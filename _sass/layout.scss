@@ -72,6 +72,12 @@ header {
   margin: $gutter 0 $gutter-2 0;
 }
 
+.header__logo, .header__color {
+  @include break-at('small') {
+    grid-column: span 6;
+  }
+}
+
 .header__color__picker {
   float: right;
   height: 20px;
@@ -98,6 +104,12 @@ header {
 /////////////////////////////////////////////////////
 .masthead {
   margin-bottom: $gutter-4;
+  @include break-at('medium') {
+    margin-bottom: $gutter-3;
+  }
+  @include break-at('small') {
+    margin-bottom: $gutter-2;
+  }
 }
 
 .font__entry {
@@ -109,9 +121,16 @@ header {
   overflow-x: hidden;
   padding-bottom: $gutter;
   &:focus {
-    // background-color: $highlight;
     outline-color: transparent;
     outline-style: none;
+  }
+  @include break-at('medium') {
+    font-size: 6vw;
+    margin-bottom: $gutter-3;
+  }
+  @include break-at('small') {
+    font-size: 7vw;
+    margin-bottom: $gutter-2;
   }
 }
 
@@ -122,8 +141,10 @@ header {
     bottom: 0;
     right: 0;
   }
+  @include break-at('medium') {
+    grid-column: 9 / span 4;
+  }
   @include break-at('small') {
-    padding-top: 10px;
     p {
       left: 0;
     }
@@ -140,14 +161,16 @@ header {
   border-top: 2px solid $primary;
   padding-top: $gutter-half;
   @include break-at('small') {
-    grid-column: span 8;
+    grid-column: span 6;
   }
 }
 
 .font__buy__button {
+  @include break-at('small') {
+    grid-column: span 6;
+  }
   .gumroad-button {
     width: 100%;
-    height: 100%;
     color: $primary !important;
     background-color: $secondary !important;
     border: 2px solid $primary;
@@ -155,6 +178,7 @@ header {
     font-family: 'Roboto', sans-serif !important;
     font-weight: 700 !important;
     font-size: 14px !important;
+    box-shadow: none !important;
     vertical-align: middle;
     @include transition(margin, .2s);
     &:hover {
@@ -169,7 +193,7 @@ header {
 // Footer
 /////////////////////////////////////////////////////
 footer {
-  padding-top: $gutter-half;
+  padding: $gutter-half 0 $gutter-2 0;
   border-top: 4px solid $primary;
-  margin: $gutter-4 0 $gutter-2 0;
+  margin: $gutter-4 0 0 0;
 }
