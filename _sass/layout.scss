@@ -145,6 +145,7 @@ header {
     grid-column: 9 / span 4;
   }
   @include break-at('small') {
+    grid-column: span 12;
     p {
       left: 0;
     }
