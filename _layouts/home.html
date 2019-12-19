@@ -11,8 +11,8 @@
           <h2>
             <a class="bold" href="{{font.url}}">
               {{ font.title }}
-            </h2>
-          </p>
+            </a>
+          </h2>
           <p>
             {{ font.content }}
           </p>
@@ -24,7 +24,7 @@
             </a>
           </p>
         </div>
-        <div class="font__entry {{ font.fontname }} col-12" contenteditable>
+        <div class="font__entry home__font__entry {{ font.fontname }} col-12" contenteditable>
           {{ font.sample }}
         </div>
       {% endfor %}

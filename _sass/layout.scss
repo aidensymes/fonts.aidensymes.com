@@ -113,25 +113,28 @@ header {
 }
 
 .font__entry {
-  font-size: 5vw;
+  font-size: 90px;
   padding-top: $gutter-half;
   border-top: 1px solid $primary;
   margin-bottom: $gutter-4;
-  white-space: nowrap;
-  overflow-x: hidden;
-  padding-bottom: $gutter;
   &:focus {
     outline-color: transparent;
     outline-style: none;
   }
   @include break-at('medium') {
-    font-size: 6vw;
+    font-size: 60px;
     margin-bottom: $gutter-3;
   }
   @include break-at('small') {
-    font-size: 7vw;
+    font-size: 30px;
     margin-bottom: $gutter-2;
   }
+}
+
+.home__font__entry {
+  white-space: nowrap;
+  overflow-x: hidden;
+  padding-bottom: $gutter;
 }
 
 .font__info {
@@ -197,4 +200,17 @@ footer {
   padding: $gutter-half 0 $gutter-2 0;
   border-top: 4px solid $primary;
   margin: $gutter-4 0 0 0;
+}
+
+.instagram {
+  text-align: right;
+  @include break-at('small') {
+    grid-column: span 6;
+  }
+}
+
+.logo {
+  @include break-at('small') {
+    grid-column: span 6;
+  }
 }
