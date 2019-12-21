@@ -6,26 +6,43 @@
     {% include header.html %}
 
     <section class="wrapper">
-      {% for font in site.fonts %}
+      {% for page in site.fonts %}
+
+        <style>
+          {% for font in page.fonts %}
+            @font-face {
+              font-family: '{{ page.fontname }}';
+              src: url('{{ font.file }}') format('woff');
+              font-weight: {{ font.weight }};
+              font-style: normal;
+            }
+          {% endfor %}
+
+          .{{ page.fontname }} {
+            font-family: '{{ page.fontname }}', sans-serif;
+            line-height: 1.1;
+          }
+        </style>
+
         <div class="font__blurb col-4">
           <h2>
-            <a class="bold" href="{{font.url}}">
-              {{ font.title }}
+            <a class="bold" href="{{page.url}}">
+              {{ page.title }}
             </a>
           </h2>
           <p>
-            {{ font.content }}
+            {{ page.content }}
           </p>
         </div>
         <div class="font__info col-4-right">
           <p>
-            <a href="{{font.url}}">
+            <a href="{{page.url}}">
               Info >
             </a>
           </p>
         </div>
-        <div class="font__entry home__font__entry {{ font.fontname }} col-12" contenteditable>
-          {{ font.sample }}
+        <div class="font__entry home__font__entry {{ page.fontname }} col-12" contenteditable>
+          {{ page.sample }}
         </div>
       {% endfor %}
     </section>
