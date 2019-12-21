@@ -24,7 +24,7 @@ fonts:
   file: "/uploads/TallboyUltraCondensed-Light.woff"
 sample:
   entry: A BIG BOWL OF SPAGHETTI LETTERS.
-  weight: 700
+  weight: 900
 samples:
 - blurb: Test
   entry: VERY THICK okey dokey
