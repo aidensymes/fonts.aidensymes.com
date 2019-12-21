@@ -2,7 +2,7 @@
 title: Gerty 3000
 date: 2019-12-18 18:36:00 Z
 permalink: "/gerty"
-fontname: Gerty 3000
+fontname: Gerty3000
 fonts:
 - weight: 400
   file: "/uploads/Gerty3000-Regular-1b3bb5.woff"
