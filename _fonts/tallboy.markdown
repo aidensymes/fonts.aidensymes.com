@@ -1,6 +1,7 @@
 ---
 title: Tallboy
 date: 2019-12-21 20:28:00 Z
+permalink: "/tallboy"
 fontname: tallboy
 fonts:
 - weight: 900
