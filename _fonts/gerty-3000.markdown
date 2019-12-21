@@ -7,8 +7,7 @@ fonts:
 - weight: 400
   file: "/uploads/Gerty3000-Regular-1b3bb5.woff"
 sample:
-  entry: alien ships
-  weight: 
+- entry: Alien Ships
 image: "/uploads/gerty_header.svg"
 samples:
 - blurb: Gerty 3000 is an italic, monospaced display font. Perfect for evil robots
