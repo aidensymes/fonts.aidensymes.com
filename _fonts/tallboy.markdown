@@ -33,9 +33,11 @@ samples:
   entry: LESS THICK okey dokey
   weight: 100
 buy:
-- type: Desktop
+- type: Condensed Bold, Medium & Light Desktop
   format: ".OTF"
-  link: foo bar
+  link: |-
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <a class="gumroad-button" href="https://gum.co/LdEWl" target="_blank">$35 | Buy Now</a>
 layout: font
 ---
 
