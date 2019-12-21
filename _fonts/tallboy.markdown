@@ -22,9 +22,8 @@ fonts:
   file: "/uploads/TallboyUltraCondensed-Medium.woff"
 - weight: 100
   file: "/uploads/TallboyUltraCondensed-Light.woff"
-sample:
-- entry: A big bowl of skinny spaghetti letters.
-  weight: 700
+homeentry: A big bowl of skinny noodle letters.
+homeweight: 700
 image: "/uploads/tallboy.svg"
 samples:
 - blurb: Test
