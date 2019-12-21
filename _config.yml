@@ -11,22 +11,5 @@ collections:
   uploads:
     title: Uploads
     output: true
-# defaults:
-# - scope:
-#   path: ''
-#   type: Fonts
-# values:
-#   fontname: ''
-#   fonts:
-#   - weight: ''
-#     file: ''
-#   sample: 'Alien Ships'
-#   image: ''
-#   samples:
-#   - blurb: ''
-#     entry: ''
-#     weight: ''
-#   buy: ''
-#   layout: font
 tagline: Display fonts by Aiden Symes.
 description: Display fonts by Aiden Symes.
