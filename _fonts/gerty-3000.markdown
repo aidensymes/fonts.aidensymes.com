@@ -2,9 +2,9 @@
 title: Gerty 3000
 date: 2019-12-18 18:36:00 Z
 permalink: "/gerty"
+fontname: Gerty 3000
 fonts:
-- name: Gerty 3000
-  weight: 400
+- weight: 400
   file: "/uploads/Gerty3000-Regular-1b3bb5.woff"
 sample: Alien Ships
 image: "/uploads/gerty_header.svg"
