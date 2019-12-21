@@ -23,8 +23,9 @@ fonts:
 - weight: 100
   file: "/uploads/TallboyUltraCondensed-Light.woff"
 sample:
-  entry: A BIG BOWL OF SPAGHETTI LETTERS.
-  weight: 900
+- entry: A big bowl of skinny spaghetti letters.
+  weight: 700
+image: "/uploads/tallboy.svg"
 samples:
 - blurb: Test
   entry: VERY THICK okey dokey
