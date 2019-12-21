@@ -27,6 +27,9 @@ samples:
 - blurb: Test
   entry: VERY THICK okey dokey
   weight: 900
+- blurb: test 2
+  entry: LESS THICK okey dokey
+  weight: 100
 buy:
 - type: Desktop
   format: ".OTF"
