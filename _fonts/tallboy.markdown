@@ -31,6 +31,7 @@ buy:
 - type: Desktop
   format: ".OTF"
   link: foo bar
+layout: font
 ---
 
 A family of nine super condensed noodle fonts.
