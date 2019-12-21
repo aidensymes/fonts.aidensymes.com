@@ -20,7 +20,9 @@ defaults:
     fonts:
     - weight: ''
       file: ''
-    sample: ''
+    sample:
+    - entry: ''
+      weight: ''
     image: ''
     samples:
     - blurb: ''
