@@ -27,7 +27,7 @@ defaults:
       entry: ''
       weight: ''
     buy:
-    - font: ''
+    - fontname: ''
       format: ''
       link: ''
     layout: font
