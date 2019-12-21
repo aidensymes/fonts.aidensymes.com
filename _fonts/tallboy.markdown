@@ -33,7 +33,7 @@ samples:
   entry: LESS THICK okey dokey
   weight: 100
 buy:
-- type: Condensed Bold, Medium & Light Desktop
+- type: Condensed Desktop (Bold, Medium & Light )
   format: ".OTF"
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
