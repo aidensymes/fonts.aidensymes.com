@@ -47,14 +47,14 @@
       <section class="wrapper font__buy">
           <div class="font__buy__info col-4">
             <h2>
-              {{ option[0] }}
+              {{ option.font }}
             </h2>
             <p>
-              Download {{ option[0] }} in .OTF format.
+              Download {{ option.font }} as a {{ option.format}} file.
             </p>
           </div>
           <div class="col-8 font__buy__button">
-            {{ option[1] }}
+            {{ option.link }}
           </div>
       </section>
     {% endfor %}
