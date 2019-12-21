@@ -23,7 +23,9 @@ samples:
   entry: type here!
   weight: 
 buy:
-- Gerty 3000 Desktop: |-
+- type: Desktop
+  format: ".OTF"
+  link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
         <a class="gumroad-button" href="https://gum.co/mSit" target="_blank">$5.00 | Buy Now</a>
 layout: font
