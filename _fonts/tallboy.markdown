@@ -34,6 +34,11 @@ samples:
   entry: LESS THICK okey dokey
   weight: 100
 buy:
+- type: Complete Family (All Nine Fonts)
+  format: ".OTF"
+  link: |-
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <a class="gumroad-button" href="https://gum.co/IoYEtH" target="_blank" data-gumroad-single-product="true">$90 | Buy Now</a>
 - type: Condensed Desktop (Bold, Medium & Light )
   format: ".OTF"
   link: |-
