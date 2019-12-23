@@ -29,7 +29,7 @@ buy:
   format: ".OTF"
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/mSit?wanted=true" target="_blank" data-gumroad-single-product="true">Name Your Price | Buy Now</a>
+    <a class="gumroad-button" href="https://gum.co/mSit" target="_blank" data-gumroad-single-product="true">Name Your Price | Buy Now</a>
 layout: font
 ---
 
