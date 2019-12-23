@@ -38,17 +38,17 @@ buy:
   format: ".OTF"
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/LdEWl?wanted=true" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
+    <a class="gumroad-button" href="https://gum.co/LdEWl" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
 - type: Extra Condensed Desktop (Bold, Medium & Light )
   format: ".OTF"
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/yjzYX?wanted=true" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
+    <a class="gumroad-button" href="https://gum.co/yjzYX" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
 - type: Ultra Condensed Desktop (Bold, Medium & Light )
   format: ".OTF"
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/SvOaT?wanted=true" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
+    <a class="gumroad-button" href="https://gum.co/SvOaT" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
 layout: font
 ---
 
