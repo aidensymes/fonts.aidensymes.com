@@ -46,7 +46,9 @@ buy:
     <a class="gumroad-button" href="https://gum.co/yjzYX?wanted=true" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
 - type: Ultra Condensed Desktop (Bold, Medium & Light )
   format: ".OTF"
-  link: foo bar
+  link: |-
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <a class="gumroad-button" href="https://gum.co/SvOaT?wanted=true" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
 layout: font
 ---
 
