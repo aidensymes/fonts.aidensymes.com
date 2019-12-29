@@ -10,7 +10,7 @@ fonts:
 - weight: 800
   file: "/uploads/TallboyCondensed-Medium.woff"
 - weight: 700
-  file: "/uploads/TallboyCondensed-Light.woff"
+  file: "/uploads/TallboyCondensed-Light-68a73a.woff"
 - weight: 600
   file: "/uploads/TallboyExtraCondensed-Bold.woff"
 - weight: 500
