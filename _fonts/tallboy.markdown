@@ -32,11 +32,11 @@ samples:
     each with three weights.
   entry: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy
     Zz 1234567890
-  weight: 700
+  weight: 900
 - blurb: It also has fairly robust langue support.
   entry: à á â ä æ ã å ç ć č è é ê ë ė ì î ï í ñ ń ô ö ò ó œ ø õ ß ś š û ü ù ú ÿ ž
     ź ż
-  weight: 700
+  weight: 900
 - blurb: Tallboy Condensed Bold
   entry: Spaghetti is a long, thin, solid, cylindrical pasta.
   weight: 900
@@ -46,6 +46,15 @@ samples:
 - blurb: Tallboy Condensed Light
   entry: Italian spaghetti is typically made from durum wheat semolina.
   weight: 700
+- blurb: Tallboy Extra Condensed Bold
+  entry: Spaghettoni is a thicker form of spaghetti.
+  weight: 600
+- blurb: Tallboy Extra Condensed Medium
+  entry: Capellini is a very thin spaghetti.
+  weight: 500
+- blurb: Tallboy Extra Condensed Light
+  entry: A home pasta machine simplifies the rolling.
+  weight: 400
 buy:
 - type: Complete Family
   format: Nine OpenType fonts, all three widths and weights.
