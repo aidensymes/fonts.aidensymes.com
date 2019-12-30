@@ -38,7 +38,7 @@ samples:
     ź ż
   weight: 700
 - blurb: Tallboy Condensed Bold
-  entry: 'Spaghetti (Italian: [spa''ɡetti]) is a long, thin, solid, cylindrical pasta.'
+  entry: 'Spaghetti (Italian: [spa''getti]) is a long, thin, solid, cylindrical pasta.'
   weight: 900
 - blurb: Tallboy Condensed Medium
   entry: Like other pasta, spaghetti is made of milled wheat and water.
