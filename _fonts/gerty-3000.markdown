@@ -4,7 +4,6 @@ date: 2019-12-18 18:36:00 Z
 permalink: "/gerty"
 position: 0
 fontname: Gerty3000
-size: 90
 fonts:
 - weight: 400
   file: "/uploads/Gerty3000-Regular-1b3bb5.woff"
@@ -31,6 +30,7 @@ buy:
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
     <a class="gumroad-button" href="https://gum.co/mSit" target="_blank" data-gumroad-single-product="true">Name Your Price | Buy Now</a>
+size: 6
 layout: font
 ---
 
