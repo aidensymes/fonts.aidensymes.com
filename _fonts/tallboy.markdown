@@ -54,7 +54,7 @@ buy:
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
     <a class="gumroad-button" href="https://gum.co/SvOaT" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
-size: 10
+size: 15
 layout: font
 ---
 
