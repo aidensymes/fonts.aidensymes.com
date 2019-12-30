@@ -41,14 +41,11 @@ samples:
   entry: Tallboy Condensed Bold
   weight: 'Spaghetti (Italian: [spaˈɡetti]) is a long, thin, solid, cylindrical pasta.'
 - blurb: Tallboy Condensed Medium
-  entry: 'Like other pasta, spaghetti is made of milled wheat and water and sometimes
-    enriched with vitamins and minerals. '
+  entry: Like other pasta, spaghetti is made of milled wheat and water.
   weight: 800
 - blurb: Tallboy Condensed Light
   entry: Tallboy Condensed Light
-  weight: 'Italian spaghetti is typically made from durum wheat semolina. Usually
-    the pasta is white because refined flour is used, but whole wheat flour may be
-    added. '
+  weight: Italian spaghetti is typically made from durum wheat semolina.
 buy:
 - type: Complete Family
   format: Nine OpenType fonts, all three widths and weights.
