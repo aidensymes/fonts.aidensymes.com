@@ -35,7 +35,7 @@ samples:
   entry: LESS THICK okey dokey
   weight: 100
 buy:
-- type: Complete Family (All Nine Fonts)
+- type: Complete Family
   format: Nine OpenType fonts, all three widths and weights.
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
