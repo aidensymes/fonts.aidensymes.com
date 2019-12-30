@@ -34,7 +34,7 @@ samples:
     Zz 1234567890
   weight: 700
 - blurb: It also has fairly robust langue support.
-  entry: àáâäæãå
+  entry: Àà Áá Ââ Ää Ææ Ãã Åå Œœ Øø Çç Ññ ß
   weight: 700
 - blurb: Tallboy Condensed Bold
   entry: Tallboy Condensed Bold
