@@ -4,6 +4,7 @@ date: 2019-12-21 20:28:00 Z
 permalink: "/tallboy"
 position: 1
 fontname: tallboy
+size: 12
 fonts:
 - weight: 900
   file: "/uploads/TallboyCondensed-Bold.woff"
@@ -54,7 +55,6 @@ buy:
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
     <a class="gumroad-button" href="https://gum.co/SvOaT" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
-size: 15
 layout: font
 ---
 
