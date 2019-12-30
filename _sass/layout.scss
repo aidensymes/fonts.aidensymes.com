@@ -113,7 +113,6 @@ header {
 }
 
 .font__entry {
-  font-size: 90px;
   padding-top: $gutter-half;
   border-top: 1px solid $primary;
   margin-bottom: $gutter-4;
@@ -122,11 +121,9 @@ header {
     outline-style: none;
   }
   @include break-at('medium') {
-    font-size: 60px;
     margin-bottom: $gutter-3;
   }
   @include break-at('small') {
-    font-size: 30px;
     margin-bottom: $gutter-2;
   }
 }
