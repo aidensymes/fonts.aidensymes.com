@@ -55,6 +55,16 @@ samples:
 - blurb: Tallboy Extra Condensed Light
   entry: A home pasta machine simplifies the rolling.
   weight: 400
+- blurb: Tallboy Ultra Condensed Bold
+  entry: Commercial versions of fresh spaghetti are manufactured.
+  weight: 300
+- blurb: Tallboy Ultra Condensed Medium
+  entry: In some countries, spaghetti is sold in cans/tins with sauce.
+  weight: 200
+- blurb: Tallboy Ultra Condensed Light
+  entry: Unlike in Italy, in other countries spaghetti is often served with Bolognese
+    sauce.
+  weight: 100
 buy:
 - type: Complete Family
   format: Nine OpenType fonts, all three widths and weights.
