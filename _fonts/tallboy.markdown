@@ -24,16 +24,26 @@ fonts:
   file: "/uploads/TallboyUltraCondensed-Medium.woff"
 - weight: 100
   file: "/uploads/TallboyUltraCondensed-Light.woff"
-homeentry: A big bowl of skinny noodle letters.
+homeentry: A big bowl of spaghetti and meatballs.
 homeweight: 700
 image: "/uploads/tallboy.svg"
 samples:
-- blurb: Test
-  entry: VERY THICK okey dokey
+- blurb: Tallboy is a family extremely thin display fonts—three widths, each with
+    three weights.
+  entry: AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz1234567890
+  weight: 700
+- blurb: It also has fairly robust langue support.
+  entry: àáâäæãå
+  weight: 700
+- blurb: Tallboy Condensed Bold
+  entry: Tallboy Condensed Bold
   weight: 900
-- blurb: test 2
-  entry: LESS THICK okey dokey
-  weight: 100
+- blurb: Tallboy Condensed Medium
+  entry: Tallboy Condensed Medium
+  weight: 800
+- blurb: Tallboy Condensed Light
+  entry: Tallboy Condensed Light
+  weight: 700
 buy:
 - type: Complete Family
   format: Nine OpenType fonts, all three widths and weights.
