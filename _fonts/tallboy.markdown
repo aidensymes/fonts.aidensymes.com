@@ -4,7 +4,7 @@ date: 2019-12-21 20:28:00 Z
 permalink: "/tallboy"
 position: 1
 fontname: tallboy
-size: 12
+size: 15
 fonts:
 - weight: 900
   file: "/uploads/TallboyCondensed-Bold.woff"
