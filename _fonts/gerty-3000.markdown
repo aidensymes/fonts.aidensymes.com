@@ -4,7 +4,7 @@ date: 2019-12-18 18:36:00 Z
 permalink: "/gerty"
 position: 0
 fontname: Gerty3000
-size: 6
+size: 7
 fonts:
 - weight: 400
   file: "/uploads/Gerty3000-Regular-1b3bb5.woff"
@@ -16,6 +16,7 @@ samples:
     and alien death squads.
   entry: abcdefghijklmnopqrstuvwxyz1234567890
   weight: 
+  third: 
 - blurb: It also has a full set of smiley faces.
   entry: "←→↑↓↔↕↖↗↘"
   weight: 
