@@ -1,5 +1,4 @@
 $(window).on('load', function() {
-  $('.overlay').css('width', '0');
   jQuery('img.svg').each(function(){
     var $img = jQuery(this);
     var imgID = $img.attr('id');
@@ -16,22 +15,6 @@ $(window).on('load', function() {
         $svg = $svg.removeAttr('xmlns:a');
         $img.replaceWith($svg);
     }, 'xml');
-  });
-});
-
-$(document).ready(function() {
-  $('a').click(function(e) {
-    if ($(this).attr('target') != "_blank") {
-      e.preventDefault();
-      $('.overlay').css('left', 'initial');
-      $('.overlay').css('right', '0');
-      $('.overlay').css('width', '100%');
-      var href = $(this).attr('href');
-      setTimeout(function() {
-        window.location = href;
-      }, 150);
-      return false;
-    }
   });
 });
 

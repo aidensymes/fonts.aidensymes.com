@@ -113,13 +113,15 @@ header {
 }
 
 .third {
-  white-space: nowrap;
-  overflow: hidden;
   @include break-at('medium') {
     grid-column: span 4;
   }
   @include break-at('small') {
-    grid-column: span 4;
+    grid-column: span 6;
+  }
+  .font__entry {
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
 
@@ -161,6 +163,7 @@ header {
   }
   @include break-at('small') {
     grid-column: span 12;
+    padding-top: $gutter-half;
     p {
       left: 0;
     }
