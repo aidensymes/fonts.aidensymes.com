@@ -29,23 +29,34 @@
 
     <section class="wrapper">
       {% for sample in page.samples %}
-        <div class="font__blurb col-4">
-          <p>
-            {{ sample.blurb }}
-          </p>
-        </div>
-        <div class="font__entry {{ page.fontname }} col-12" style="font-weight: {{ sample.weight }};" contenteditable>
-          {{ sample.entry }}
-        </div>
+        {% if sample.third == true %}
+          <div class="col-4 third">
+            <p class="font__blurb__third">
+              {{ sample.blurb }}
+            </p>
+            <div class="font__entry {{ page.fontname }}" style="font-weight: {{ sample.weight }};" contenteditable>
+              {{ sample.entry }}
+            </div>
+          </div>
+        {% else %}
+          <div class="font__blurb col-4">
+            <p>
+              {{ sample.blurb }}
+            </p>
+          </div>
+          <div class="font__entry {{ page.fontname }} col-12" style="font-weight: {{ sample.weight }};" contenteditable>
+            {{ sample.entry }}
+          </div>
+        {% endif %}
       {% endfor %}
     </section>
 
     {% for option in page.buy %}
       <section class="wrapper font__buy">
           <div class="font__buy__info col-4">
-            <h2>
+            <h1>
               {{ page.title }} {{ option.type }}
-            </h2>
+            </h1>
             <p>
               {{ option.format}}
             </p>

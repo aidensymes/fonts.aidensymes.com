@@ -28,6 +28,7 @@ defaults:
     - blurb: ''
       entry: ''
       weight: ''
+      third: ''
     buy:
     - type: ''
       format: ''
