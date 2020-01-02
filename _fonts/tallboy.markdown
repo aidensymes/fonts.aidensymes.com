@@ -33,38 +33,47 @@ samples:
   entry: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy
     Zz 1234567890
   weight: 900
+  third: 
 - blurb: It also has fairly robust langue support.
   entry: à á â ä æ ã å ç ć č è é ê ë ė ì î ï í ñ ń ô ö ò ó œ ø õ ß ś š û ü ù ú ÿ ž
     ź ż
   weight: 900
-- blurb: Tallboy Condensed Bold
-  entry: Spaghetti is a long, thin, solid, cylindrical pasta.
+- blurb: Condensed Bold
+  entry: COND BOLD
   weight: 900
-- blurb: Tallboy Condensed Medium
-  entry: Like other pasta, spaghetti is made of milled wheat and water.
+  third: true
+- blurb: Condensed Medium
+  entry: COND MEDM
   weight: 800
-- blurb: Tallboy Condensed Light
-  entry: Italian spaghetti is typically made from durum wheat semolina.
+  third: true
+- blurb: Condensed Light
+  entry: COND LITE
   weight: 700
-- blurb: Tallboy Extra Condensed Bold
-  entry: Spaghettoni is a thicker form of spaghetti.
+  third: true
+- blurb: Extra Condensed Bold
+  entry: XCOND BOLD
   weight: 600
-- blurb: Tallboy Extra Condensed Medium
-  entry: Capellini is a very thin spaghetti.
+  third: true
+- blurb: Extra Condensed Medium
+  entry: XCOND MEDM
   weight: 500
-- blurb: Tallboy Extra Condensed Light
-  entry: A home pasta machine simplifies the rolling.
+  third: true
+- blurb: Extra Condensed Light
+  entry: XCOND LITE
   weight: 400
-- blurb: Tallboy Ultra Condensed Bold
-  entry: Commercial versions of fresh spaghetti are manufactured.
+  third: true
+- blurb: Ultra Condensed Bold
+  entry: UCOND BOLD
   weight: 300
-- blurb: Tallboy Ultra Condensed Medium
-  entry: In some countries, spaghetti is sold in cans/tins with sauce.
+  third: true
+- blurb: Ultra Condensed Medium
+  entry: UCOND MEDM
   weight: 200
-- blurb: Tallboy Ultra Condensed Light
-  entry: Unlike in Italy, in other countries spaghetti is often served with Bolognese
-    sauce.
+  third: true
+- blurb: Ultra Condensed Light
+  entry: UCOND LITE
   weight: 100
+  third: true
 buy:
 - type: Complete Family
   format: Nine OpenType fonts, all three widths and weights.
