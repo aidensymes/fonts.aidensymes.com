@@ -29,15 +29,12 @@ homeweight: 700
 image: "/uploads/tallboy.svg"
 samples:
 - blurb: Tallboy is a family extremely thin display fonts containing three widths,
-    each with three weights.
+    each with three weights. It also has a full set of punctuation and fairly wide
+    language support.
   entry: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy
     Zz 1234567890
   weight: 900
   third: 
-- blurb: It also has fairly robust langue support.
-  entry: à á â ä æ ã å ç ć č è é ê ë ė ì î ï í ñ ń ô ö ò ó œ ø õ ß ś š û ü ù ú ÿ ž
-    ź ż
-  weight: 900
 - blurb: Condensed Bold
   entry: COND BOLD
   weight: 900
@@ -75,7 +72,7 @@ samples:
   weight: 100
   third: true
 - blurb: Try it out
-  entry: TYPE HERE!
+  entry: TYPE HERE! TYPE HERE! TYPE HERE!
   weight: 900
   third: 
 buy:
