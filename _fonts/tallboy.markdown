@@ -74,6 +74,10 @@ samples:
   entry: UCOND LITE
   weight: 100
   third: true
+- blurb: Try it out
+  entry: TYPE HERE!
+  weight: 900
+  third: 
 buy:
 - type: Complete Family
   format: Nine OpenType fonts, all three widths and weights.
