@@ -116,21 +116,27 @@ header {
   @include break-at('medium') {
     grid-column: span 4;
   }
-  @include break-at('small') {
-    grid-column: span 6;
-  }
   .font__entry {
     white-space: nowrap;
     overflow: hidden;
   }
 }
 
-.font__blurb__third{
+.font__blurb__home {
+  @include break-at('small') {
+    grid-column: span 10;
+  }
+}
+
+.font__blurb__third {
   margin-bottom: $gutter-half;
+  @include break-at('small') {
+    height: $gutter;
+  }
 }
 
 .font__entry {
-  padding-top: $gutter-half;
+  padding-top: 10px;
   border-top: 1px solid $primary;
   margin-bottom: $gutter-4;
   &:focus {
@@ -162,11 +168,7 @@ header {
     grid-column: 9 / span 4;
   }
   @include break-at('small') {
-    grid-column: span 12;
-    padding-top: $gutter-half;
-    p {
-      left: 0;
-    }
+    grid-column: 11 / span 2;
   }
 }
 

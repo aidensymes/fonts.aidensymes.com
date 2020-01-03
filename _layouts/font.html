@@ -2,20 +2,7 @@
 <html lang="en">
 
   <style>
-    {% for font in page.fonts %}
-      @font-face {
-        font-family: '{{ page.fontname }}';
-        src: url('{{ font.file }}') format('woff');
-        font-weight: {{ font.weight }};
-        font-style: normal;
-      }
-    {% endfor %}
-
-    .{{ page.fontname }} {
-      font-family: '{{ page.fontname }}', sans-serif;
-      line-height: 1.1;
-      font-size: {{page.size}}vw;
-    }
+    {% include loadFonts.html %}
   </style>
 
   {% include head.html %}

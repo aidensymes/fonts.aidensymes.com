@@ -1,0 +1,26 @@
+{% for font in page.fonts %}
+  @font-face {
+    font-family: '{{ page.fontname }}';
+    src: url('{{ font.file }}') format('woff');
+    font-weight: {{ font.weight }};
+    font-style: normal;
+  }
+{% endfor %}
+
+.{{ page.fontname }} {
+  font-family: '{{ page.fontname }}', sans-serif;
+  line-height: 1.1;
+  font-size: {{ page.size }}vw;
+}
+
+@media (min-width: 1600px) {
+  .{{ page.fontname }} {
+    font-size: {{ page.size | times: 16 }}px;
+  }
+}
+
+@media (max-width: 550px) {
+  .{{ page.fontname }} {
+    font-size: {{ page.size | times: 1.4 }}vw;
+  }
+}
