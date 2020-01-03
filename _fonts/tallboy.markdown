@@ -28,7 +28,7 @@ homeentry: A big bowl of spaghetti and meatballs.
 homeweight: 700
 image: "/uploads/tallboy.svg"
 samples:
-- blurb: Tallboy is a family extremely thin display fonts containing three widths,
+- blurb: Tallboy is a family of extremely thin display fonts containing three widths,
     each with three weights. It also has a full set of punctuation and fairly wide
     language support.
   entry: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy
@@ -71,7 +71,7 @@ samples:
   entry: UCOND LITE
   weight: 100
   third: true
-- blurb: Try it out
+- blurb: Try it out.
   entry: TYPE HERE! TYPE HERE! TYPE HERE!
   weight: 900
   third: 
