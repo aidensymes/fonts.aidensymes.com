@@ -113,12 +113,13 @@ header {
 }
 
 .third {
+  overflow-x: hidden;
   @include break-at('medium') {
     grid-column: span 4;
   }
   .font__entry {
+    overflow-x: scroll;
     white-space: nowrap;
-    overflow: hidden;
   }
 }
 
@@ -139,8 +140,8 @@ header {
   padding-top: 10px;
   border-top: 1px solid $primary;
   margin-bottom: $gutter-4;
-  overflow-wrap: anywhere;
-  word-break: break-all;
+  word-break: break-word;
+  overflow-wrap: break-word;
   &:focus {
     outline-color: transparent;
     outline-style: none;
