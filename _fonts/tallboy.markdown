@@ -80,22 +80,22 @@ buy:
   format: Nine OpenType fonts, all three widths and weights.
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/IoYEtH" target="_blank" data-gumroad-single-product="true">$90 | Buy Now</a>
+    <a class="gumroad-button" href="https://gum.co/IoYEtH" target="_blank" data-gumroad-single-product="true">$30 | Buy Now</a>
 - type: Condensed Desktop
   format: 'Three OpenType fonts: Condensed Bold, Medium & Light.'
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/LdEWl" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
+    <a class="gumroad-button" href="https://gum.co/LdEWl" target="_blank" data-gumroad-single-product="true">$12 | Buy Now</a>
 - type: Extra Condensed Desktop
   format: 'Three OpenType fonts: Extra Condensed Bold, Medium & Light.'
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/yjzYX" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
+    <a class="gumroad-button" href="https://gum.co/yjzYX" target="_blank" data-gumroad-single-product="true">$12 | Buy Now</a>
 - type: Ultra Condensed Desktop
   format: 'Three OpenType fonts: Ultra Condensed Bold, Medium & Light.'
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/SvOaT" target="_blank" data-gumroad-single-product="true">$35 | Buy Now</a>
+    <a class="gumroad-button" href="https://gum.co/SvOaT" target="_blank" data-gumroad-single-product="true">$12 | Buy Now</a>
 layout: font
 ---
 
