@@ -13,4 +13,4 @@ samples:
   entry: I feel the need—the need for speed!
 ---
 
-A speedy font for fast dudes.
+A speedy condensed italic for fast dudes.
