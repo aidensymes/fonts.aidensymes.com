@@ -3,7 +3,7 @@ title: Drome
 date: 2020-05-02 18:01:00 Z
 permalink: "/drome"
 fontname: drome
-size: 15
+size: 12
 fonts:
 - weight: 400
   file: "/uploads/Drome-Regular.woff"
