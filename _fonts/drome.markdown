@@ -9,7 +9,7 @@ size: 12
 fonts:
 - weight: 400
   file: "/uploads/Drome-Regular-fe6300.woff"
-homeentry: Win on Sunday.
+homeentry: Dirtbikes!
 image: "/uploads/drome_header.svg"
 samples:
 - blurb: Drome is a tightly set, condensed italic display face with a speedy nature.
@@ -40,4 +40,4 @@ buy:
     <a class="gumroad-button" href="https://gum.co/IHLRz" target="_blank" data-gumroad-single-product="true">Name Your Price | Buy Now</a>
 ---
 
-A speedy condensed italic for fast dudes.
+A speedy, condensed italic for fast dudes.
