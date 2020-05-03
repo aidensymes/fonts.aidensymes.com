@@ -22,12 +22,8 @@ samples:
   entry: Italic & Condensed
   weight: 
   third: 
-- blurb: Like this @.
-  entry: hello@aidensymes.com
-  weight: 
-  third: 
-- blurb: It even has punctuation!
-  entry: '!?:;.,-+=#$''%"_'
+- blurb: It even has punctuation.
+  entry: ',.+-×=%!?:;"''[]{}#$¢@&'
   weight: 
   third: 
 - blurb: Try it out.
