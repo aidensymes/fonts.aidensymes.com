@@ -11,6 +11,10 @@ homeentry: Win on Sunday, sell on Monday.
 image: "/uploads/drome_header.svg"
 samples:
 - blurb: Drome is a tightly set, condensed italic display face with a speedy nature.
+  entry: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  weight: 
+  third: 
+- blurb: It's perfect for racecars, dirtbikes & jet fighters.
   entry: I feel the need—the need for speed!
   weight: 
   third: 
@@ -23,11 +27,11 @@ samples:
   weight: 
   third: 
 - blurb: It even has punctuation!
-  entry: '!?:;.,-_+=#$''%"'
+  entry: '!?:;.,-+=#$''%"_'
   weight: 
   third: 
 - blurb: Try it out.
-  entry: Type away flyboy!
+  entry: Type away, flyboy!
   weight: 
   third: 
 buy:
