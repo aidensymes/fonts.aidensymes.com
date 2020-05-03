@@ -2,7 +2,6 @@
 title: Gerty 3000
 date: 2020-05-03 18:36:00 Z
 permalink: "/gerty"
-published: false
 position: 0
 fontname: Gerty3000
 size: 7
