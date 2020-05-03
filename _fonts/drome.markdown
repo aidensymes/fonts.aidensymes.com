@@ -32,7 +32,7 @@ samples:
   third: 
 buy:
 - type: Desktop
-  format: ".OTF"
+  format: One OpenType font.
   link: |-
     <script src="https://gumroad.com/js/gumroad.js"></script>
     <a class="gumroad-button" href="https://gum.co/IHLRz" target="_blank" data-gumroad-single-product="true">Name Your Price | Buy Now</a>
