@@ -7,7 +7,7 @@ fontname: drome
 size: 12
 fonts:
 - weight: 400
-  file: "/uploads/Drome-Regular-80be5d.woff"
+  file: "/uploads/Drome-Regular-fe6300.woff"
 homeentry: Win on Sunday, sell on Monday.
 samples:
 - blurb: Drome is a tightly set, condensed italic display face with a speedy nature.
