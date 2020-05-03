@@ -9,6 +9,7 @@ fonts:
 - weight: 400
   file: "/uploads/Drome-Regular-fe6300.woff"
 homeentry: Win on Sunday, sell on Monday.
+image: "/uploads/drome_header.svg"
 samples:
 - blurb: Drome is a tightly set, condensed italic display face with a speedy nature.
   entry: I feel the need—the need for speed!
