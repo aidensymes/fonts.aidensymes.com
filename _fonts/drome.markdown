@@ -30,6 +30,12 @@ samples:
   entry: Type away flyboy!
   weight: 
   third: 
+buy:
+- type: Desktop
+  format: ".OTF"
+  link: |-
+    <script src="https://gumroad.com/js/gumroad.js"></script>
+    <a class="gumroad-button" href="https://gum.co/IHLRz" target="_blank" data-gumroad-single-product="true">Name Your Price | Buy Now</a>
 ---
 
 A speedy condensed italic for fast dudes.
