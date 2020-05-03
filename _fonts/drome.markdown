@@ -2,7 +2,6 @@
 title: Drome
 date: 2020-05-01 18:01:00 Z
 permalink: "/drome"
-published: false
 position: 2
 fontname: drome
 size: 12
