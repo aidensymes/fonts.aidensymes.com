@@ -1,6 +1,6 @@
 ---
 title: Drome
-date: 2020-05-02 18:01:00 Z
+date: 2020-05-01 18:01:00 Z
 permalink: "/drome"
 position: 2
 fontname: drome
@@ -8,7 +8,7 @@ size: 12
 fonts:
 - weight: 400
   file: "/uploads/Drome-Regular-fe6300.woff"
-homeentry: Win on Sunday, sell on Monday.
+homeentry: Win on Sunday.
 image: "/uploads/drome_header.svg"
 samples:
 - blurb: Drome is a tightly set, condensed italic display face with a speedy nature.
