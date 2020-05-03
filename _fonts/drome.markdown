@@ -24,7 +24,7 @@ samples:
   weight: 
   third: 
 - blurb: It even has punctuation.
-  entry: ',.+-×=%!?:;"''[]{}#$¢@&'
+  entry: ',.+-×=%!?:;"''[]{}#$@&'
   weight: 
   third: 
 - blurb: Try it out.
