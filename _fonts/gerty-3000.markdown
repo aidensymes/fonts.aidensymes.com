@@ -29,9 +29,8 @@ samples:
 buy:
 - type: Desktop
   format: One OpenType font.
-  link: |-
-    <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/mSit" target="_blank" data-gumroad-single-product="true">Name Your Price | Buy Now</a>
+  link: <a class="gumroad-button" href="https://gum.co/mSit" target="_blank" data-gumroad-single-product="true">Name
+    Your Price | Buy Now</a>
 layout: font
 ---
 
