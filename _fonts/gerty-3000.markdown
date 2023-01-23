@@ -12,7 +12,7 @@ homeentry: Aliens
 homeweight: 400
 image: "/uploads/gerty_header.svg"
 samples:
-- blurb: Gerty 3000 is an italic, monospaced display font. Perfect for evil robots
+- blurb: Gerty 3000 is an oblique, monospaced display font. Perfect for evil robots
     and alien death squads.
   entry: abcdefghijklmnopqrstuvwxyz1234567890
   weight: 
