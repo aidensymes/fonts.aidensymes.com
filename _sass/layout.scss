@@ -11,8 +11,8 @@
   position: relative;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: $gutter;
-  grid-row-gap : $gutter-half;
-  @include break-at('small') {
+  grid-row-gap: $gutter-half;
+  @include break-at("small") {
     grid-column-gap: $gutter-half;
   }
 }
@@ -28,25 +28,25 @@
   bottom: 0;
   left: 0;
   z-index: 999;
-  @include transition(all, .15s)
+  @include transition(all, 0.15s);
 }
 
 // Grid
 /////////////////////////////////////////////////////
 .col-4 {
   grid-column: span 4;
-  @include break-at('medium') {
+  @include break-at("medium") {
     grid-column: span 6;
   }
-  @include break-at('small') {
+  @include break-at("small") {
     grid-column: span 12;
   }
   &-right {
     grid-column: 9 / span 4;
-    @include break-at('medium') {
+    @include break-at("medium") {
       grid-column: span 6;
     }
-    @include break-at('small') {
+    @include break-at("small") {
       grid-column: span 12;
     }
   }
@@ -54,10 +54,10 @@
 
 .col-8 {
   grid-column: span 8;
-  @include break-at('medium') {
+  @include break-at("medium") {
     grid-column: span 6;
   }
-  @include break-at('small') {
+  @include break-at("small") {
     grid-column: span 4;
   }
 }
@@ -72,8 +72,9 @@ header {
   margin: $gutter 0 $gutter-2 0;
 }
 
-.header__logo, .header__color {
-  @include break-at('small') {
+.header__logo,
+.header__color {
+  @include break-at("small") {
     grid-column: span 6;
   }
 }
@@ -104,17 +105,17 @@ header {
 /////////////////////////////////////////////////////
 .masthead {
   margin-bottom: $gutter-4;
-  @include break-at('medium') {
+  @include break-at("medium") {
     margin-bottom: $gutter-3;
   }
-  @include break-at('small') {
+  @include break-at("small") {
     margin-bottom: $gutter-2;
   }
 }
 
 .third {
   overflow-x: hidden;
-  @include break-at('medium') {
+  @include break-at("medium") {
     grid-column: span 4;
   }
   .font__entry {
@@ -125,14 +126,14 @@ header {
 }
 
 .font__blurb__home {
-  @include break-at('small') {
+  @include break-at("small") {
     grid-column: span 10;
   }
 }
 
 .font__blurb__third {
   margin-bottom: $gutter-half;
-  @include break-at('small') {
+  @include break-at("small") {
     height: $gutter;
   }
 }
@@ -147,10 +148,10 @@ header {
     outline-color: transparent;
     outline-style: none;
   }
-  @include break-at('medium') {
+  @include break-at("medium") {
     margin-bottom: $gutter-3;
   }
-  @include break-at('small') {
+  @include break-at("small") {
     margin-bottom: $gutter-2;
   }
 }
@@ -168,10 +169,10 @@ header {
     bottom: 0;
     right: 0;
   }
-  @include break-at('medium') {
+  @include break-at("medium") {
     grid-column: 9 / span 4;
   }
-  @include break-at('small') {
+  @include break-at("small") {
     grid-column: 11 / span 2;
   }
 }
@@ -185,13 +186,13 @@ header {
 .font__buy__info {
   border-top: 2px solid $primary;
   padding-top: $gutter-half;
-  @include break-at('small') {
+  @include break-at("small") {
     grid-column: span 6;
   }
 }
 
 .font__buy__button {
-  @include break-at('small') {
+  @include break-at("small") {
     grid-column: span 6;
   }
   .gumroad-button {
@@ -200,21 +201,21 @@ header {
     background-color: $secondary !important;
     border: 2px solid $primary;
     background-image: none !important;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: "Roboto", sans-serif !important;
     font-weight: 700 !important;
     font-size: 14px !important;
     padding: $gutter-half !important;
     line-height: 1.1 !important;
     box-shadow: none !important;
     vertical-align: middle;
-    @include transition(margin, .2s);
-    &:hover {
-      margin: -4px 0 4px 0;
-    }
     .gumroad-button-logo {
       display: none !important;
     }
   }
+}
+
+.gumroad-button .logo-full {
+  display: none !important;
 }
 
 // Footer
@@ -227,13 +228,13 @@ footer {
 
 .instagram {
   text-align: right;
-  @include break-at('small') {
+  @include break-at("small") {
     grid-column: span 6;
   }
 }
 
 .logo {
-  @include break-at('small') {
+  @include break-at("small") {
     grid-column: span 6;
   }
 }
