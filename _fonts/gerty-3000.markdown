@@ -35,4 +35,4 @@ buy:
 layout: font
 ---
 
-A futuristic, italic, monospaced abomination.
+A futuristic, oblique, monospaced abomination.
