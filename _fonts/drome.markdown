@@ -11,7 +11,7 @@ fonts:
 homeentry: Dirtbikes!
 image: "/uploads/drome_header.svg"
 samples:
-- blurb: Drome is a tightly set, condensed italic display face with a speedy nature.
+- blurb: Drome is a tightly set, condensed oblique display face with a speedy feel.
   entry: ABCDEFGHIJKLMNOPQRSTUVWXYZ
   weight: 
   third: 
@@ -34,9 +34,8 @@ samples:
 buy:
 - type: Desktop
   format: One OpenType font.
-  link: |-
-    <script src="https://gumroad.com/js/gumroad.js"></script>
-    <a class="gumroad-button" href="https://gum.co/IHLRz" target="_blank" data-gumroad-single-product="true">Name Your Price | Buy Now</a>
+  link: <a class="gumroad-button" href="https://gum.co/IHLRz" target="_blank" data-gumroad-single-product="true">Name
+    Your Price | Buy Now</a>
 ---
 
-A speedy, condensed italic for fast dudes.
+A speedy, condensed oblique for fast dudes.
