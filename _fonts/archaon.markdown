@@ -32,7 +32,7 @@ samples:
 buy:
 - type: Desktop
   format: One OpenType font.
-  link: <a class="gumroad-button" href="https://gum.co/lanrzt" target="_blank" data-gumroad-single-product="true">Name
+  link: <a class="gumroad-button" href="https://gum.co/anrzt" target="_blank" data-gumroad-single-product="true">Name
     Your Price | Buy Now</a>
 ---
 
