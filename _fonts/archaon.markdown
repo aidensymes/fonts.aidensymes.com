@@ -29,6 +29,11 @@ samples:
   entry: Type here, mortal
   weight: 
   third: 
+buy:
+- type: Desktop
+  format: One OpenType font.
+  link: <a class="gumroad-button" href="https://gum.co/lanrzt" target="_blank" data-gumroad-single-product="true">Name
+    Your Price | Buy Now</a>
 ---
 
 A high-fantasy bitmap for the end times.
