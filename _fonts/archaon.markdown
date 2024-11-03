@@ -2,7 +2,7 @@
 title: Archaon
 date: 2024-11-03 23:20:00 Z
 fontname: Archaon
-size: 5
+size: 4
 fonts:
 - weight: Regular
 homeentry: Doom to all
@@ -10,7 +10,11 @@ homeweight: 400
 samples:
 - blurb: Archaon is a monospaced bitmap font inspired by early fantasy video games.
   entry: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy
-    Zz 1234567890
+    Zz
+  weight: 
+  third: 
+- blurb: Drive fear into your enemies with its quirky forms.
+  entry: 1,000 years of torment...
   weight: 
   third: 
 - blurb: It was designed to display well in all caps or mixed case.
