@@ -2,7 +2,7 @@
 title: Archaon
 date: 2024-11-03 23:20:00 Z
 fontname: Archaon
-size: 7
+size: 5
 fonts:
 - weight: Regular
 homeentry: Doom to all
