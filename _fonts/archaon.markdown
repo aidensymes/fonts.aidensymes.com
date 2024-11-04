@@ -5,8 +5,10 @@ fontname: Archaon
 size: 4
 fonts:
 - weight: Regular
+  file: "/uploads/Archaon-Regular.woff"
 homeentry: Doom to all
 homeweight: 400
+image: "/uploads/archaon.svg"
 samples:
 - blurb: Archaon is a monospaced bitmap font inspired by early fantasy video games.
   entry: Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy
