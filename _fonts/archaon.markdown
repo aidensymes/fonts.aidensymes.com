@@ -16,7 +16,7 @@ samples:
   weight: 
   third: 
 - blurb: Drive fear into your enemies with its quirky forms.
-  entry: 1,000 years of torment...
+  entry: 1,000 years of torment…
   weight: 
   third: 
 - blurb: It was designed to display well in all caps or mixed case.
