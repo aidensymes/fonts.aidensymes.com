@@ -1,6 +1,7 @@
 ---
 title: Archaon
 date: 2024-11-03 23:20:00 Z
+permalink: "/archaon"
 fontname: Archaon
 size: 4
 fonts:
