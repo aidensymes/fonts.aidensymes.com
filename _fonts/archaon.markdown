@@ -21,7 +21,7 @@ samples:
   weight: 
   third: 
 - blurb: It was designed to display well in all caps or mixed case.
-  entry: RUN, YOU FOOLS!
+  entry: RUN YOU FOOLS!
   weight: 
   third: 
 - blurb: It also has a small set of custom emojis.
@@ -29,7 +29,7 @@ samples:
   weight: 
   third: 
 - blurb: 'Try it out:'
-  entry: Type here, mortal
+  entry: Type here, mortal.
   weight: 
   third: 
 buy:
